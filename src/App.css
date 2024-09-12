@@ -1,0 +1,30 @@
+@font-face {
+  font-family: goodTimes;
+  src: url(./assets/fonts/good-times-rg.woff2);
+}
+
+.fontGoodTimes {
+  font-family: goodTimes, sans-serif;
+}
+
+.fontTitle {
+  cursor: default;
+  font-size: 18px;
+  text-decoration: none;
+  color: #eee;
+}
+
+.bgBlack {
+  background-color: #000;
+}
+
+.background-image {
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.size {
+  height: 50vh;
+}

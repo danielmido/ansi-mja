@@ -1,12 +1,14 @@
 const Gen = ({ genName, dateRange, isActive, onClick }) => {
   return (
     <div
-      className={`card col-1 ${isActive ? "active" : ""}`}
+      className={`card col-3 text-center h-100 ${isActive ? "active" : ""}`}
       onClick={onClick}
       style={{ cursor: "pointer" }}
     >
-      <p>{genName}</p>
-      <small>{dateRange}</small>
+      <div className="card-body">
+        <p className="m-0">{genName}</p>
+        <p className="mt-2">{dateRange}</p>
+      </div>
     </div>
   );
 };

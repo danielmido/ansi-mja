@@ -28,3 +28,23 @@
 .size {
   height: 50vh;
 }
+
+.slick-prev,
+.slick-next {
+  background-color: gray !important; /* Change the arrow background to gray */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white; /* Set the arrow icon color */
+  font-size: 20px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: darkgray !important; /* Change on hover */
+}
